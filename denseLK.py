@@ -72,9 +72,4 @@ def dense_lk(cap, bin_count):
         # Update previous points for next iteration
         old_gray = frame_gray.copy()
 
-    # Plot the temporal mean histogram
-    # Increases the execution time, comment out when needed.
-    # weights = np.ones_like(hist_magnitudes) / float(len(hist_magnitudes))
-    # plt.hist(hist_magnitudes, bins=n_bins, weights=weights), plt.show()
-    return hist_magnitudes
 
